@@ -5,7 +5,7 @@ import streamlit as st
 # ★★★ 📌【重要】このURLを公開されたCSVファイルのURLに書き換えてください ★★★
 # 例: CSV_URL = "https://raw.githubusercontent.com/user/repo/main/data.csv"
 CSV_URL = "https://github.com/nuremoh868-boop/baseball-analyzer/raw/refs/heads/main/baseballdata.csv"
-CSV_ENCODING = 'shift_jis'
+CSV_ENCODING = 'cp932'
 # ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
 
 # ======================================================================
@@ -399,3 +399,4 @@ def main():
 if __name__ == '__main__':
 
     main()
+
